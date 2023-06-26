@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_single_contents",
+  "info": {
+    "displayName": "single_content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 5
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
